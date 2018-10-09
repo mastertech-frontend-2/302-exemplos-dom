@@ -49,6 +49,8 @@ section nav a {
 }
 
 #menu-hamburguer {
+  position: relative;
+
   width: 50px;
   height: 50px;
 
@@ -66,4 +68,22 @@ section nav a {
   width: 80%;
 
   border-radius: 5px;
+}
+
+.tracinho.visible {
+  position: absolute;
+
+  transition: 0.5s;
+}
+
+.tracinho.visible:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.tracinho.visible:nth-child(2) {
+  display: none;
+}
+
+.tracinho.visible:nth-child(3) {
+  transform: rotate(-45deg);
 }
