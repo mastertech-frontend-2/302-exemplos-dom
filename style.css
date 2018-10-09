@@ -48,6 +48,8 @@ section nav a {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+
+  cursor: pointer;
 }
 
 .tracinho {
